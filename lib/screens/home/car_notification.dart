@@ -29,7 +29,7 @@ class _CarNotificationState extends State<CarNotification> {
             margin: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20),
-              color: Colors.blue,
+              color: Color.fromARGB(255, 213, 227, 238),
               boxShadow: [
                 BoxShadow(
                   color: Colors.black12,
