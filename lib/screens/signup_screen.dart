@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_care/reusable_widgets/reusable_widget.dart';
+import 'package:flutter_care/screens/add_car.dart';
 import 'package:flutter_care/screens/home_screen.dart';
 import 'package:flutter_care/utils/color_utils.dart';
 
@@ -65,7 +66,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 ),
                 signInSignUpButton(context, false, () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => HomeScreen()));
+                        MaterialPageRoute(builder: (context) => AddCar()));
                 })
               ],
             ),

@@ -79,14 +79,16 @@ class CarItem extends StatelessWidget {
                         height: 50,
                         child: ElevatedButton(
                           onPressed: () {
-                            Navigator.of(context).push(MaterialPageRoute(builder: (context) => DetailCars()));
+                            Navigator.of(context).push(MaterialPageRoute(builder: (context) => DetailCarsScreen()));
                           },
                           child: Text(
                             "Details",
                             style: GoogleFonts.montserrat(
-                                fontWeight: FontWeight.w400, fontSize: 18),
+                                fontWeight: FontWeight.w400, fontSize: 18,
+                                color: Colors.white),
                           ),
                           style: ElevatedButton.styleFrom(
+                            backgroundColor: Color.fromARGB(255, 102, 173, 240),
                             elevation: 0,
                             shape: new RoundedRectangleBorder(
                               borderRadius: BorderRadius.only(
